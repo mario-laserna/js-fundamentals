@@ -1,5 +1,4 @@
 // Tipos de datos Primitivos
-
 const texto = 'Hola';
 const numero = 42;
 const booleano = true; // false
@@ -18,7 +17,11 @@ console.log(typeof grande);
 
 
 // Complejos
-
 const objeto = { nombre: 'Juan', edad: 30 };
 const arreglo = [1,2,3,'string'];
 const funcion = function () {};
+
+console.log('-'.repeat(20));
+console.log(typeof objeto);
+console.log(typeof arreglo);
+console.log(typeof funcion);
