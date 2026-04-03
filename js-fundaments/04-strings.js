@@ -83,3 +83,9 @@ const nuevoTexto = texto7.replace('gato', 'perro');
 console.log('Replace:', nuevoTexto); // El perro es un animal doméstico. El gato es muy popular.
 const nuevoTexto2 = texto7.replaceAll('gato', 'perro');
 console.log('Replace All:', nuevoTexto2); // El perro es un animal doméstico. El perro es muy popular.
+
+// Las strings son inmutables
+let texto8 = 'Hola mundo';
+console.log('Texto original:', texto8);
+console.log('Texto modificado:', texto8.replace('Hola', 'Adiós')); // Adiós mundo
+console.log('Texto original (no cambio):', texto8);
